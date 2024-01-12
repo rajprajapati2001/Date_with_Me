@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Asap;
+    src: url(drawable/Asap_Expanded-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: Finger_Paint;
+    src: url(drawable/FingerPaint-Regular.ttf) format("truetype");
+}
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    overflow: hidden;
+}
+.bg_div { 
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    width: 100%; 
+    height: 100vh; 
+    background-image: linear-gradient(45deg, #d04500, #ff0672, #ec00d4, #9100f2); 
+}  
+
+.title_1 {
+    font-family: Asap;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 29px;
+}
+
+.title_2 {
+    font-family: Finger_Paint;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 45px;
+}
+
+.temp_title {
+    font-family: Asap;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 29px;
+}
+.b_temp_title {
+    font-family: Asap;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    font-size: 20px;
+}
+.c_temp_title {
+    font-family: Asap;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 32px;
+}
+.text_bar {
+    font-family: Asap;
+    font-size: 16px;
+    width: 220px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px;
+    padding-left: 20px;
+}
+.enter_button {
+    height: 35px;
+    width: 240px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 12px;
+    background-color: #80ff00;
+    color: black;
+    font-size: 16px;
+}
+.enter_button:hover {
+    background-color: #61c100;
+    border: 1.5px solid #80ff00;
+    color: azure;
+}
+.gif_layout {
+    width: 250px;
+    height: 250px;
+}
+
+#yes_button {
+    width: 110px;
+    height: 33px;
+    border: 0px;
+    border-radius: 12px;
+    background-color: #3bff3e;
+    color: black;
+    font-size: 17px;
+    margin-right: 10px;
+    transform: translateX(-50px);
+}
+#yes_button:hover {
+    background-color: #00ff04d0;
+    border: 1px solid #3bff3e;
+}
+
+#no_button {
+    width: 110px;
+    height: 33px;
+    border: 0px;
+    border-radius: 12px;
+    background-color: #3bc4ff;
+    color: black;
+    font-size: 17px;
+    transform: translateX(-50px);
+}
+#no_button {
+    background-color: #00b3ffce;
+    border: 1px solid 3bc4ff;
+}
+
+#about_me {
+    position: absolute;
+    bottom: -16px;
+    left: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+}
+.me_image {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 5px; 
+    border-radius: 50%; 
+    border: 1px solid white;
+}
